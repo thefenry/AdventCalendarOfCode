@@ -12,7 +12,9 @@ namespace AdventCalendarOfCode
             while (!string.IsNullOrEmpty(input))
             {
 
-                Console.WriteLine(InverseCaptcha.CheckSum(input));
+                //Console.WriteLine(InverseCaptcha.CheckSum(input));
+                Console.WriteLine(InverseCaptchaPart2.CheckSum(input));
+
                 input = Console.ReadLine();
             }
 
