@@ -16,7 +16,9 @@ namespace AdventCalendarOfCode
                 //Console.WriteLine(InverseCaptchaPart2.CheckSum(input));
                 //Console.WriteLine(SpreadSheetCheckSum.GetSpreadsheetChecksum(input));
                 //Console.WriteLine(SpreadSheetCheckSum.GetSpreadsheetDivisibleChecksum(input));
-                Console.WriteLine(ManhattanDistancePart1.CalculateDistanceBasedOnNumber(Convert.ToInt32(input)));
+                //Console.WriteLine(ManhattanDistancePart1.CalculateDistanceBasedOnNumber(Convert.ToInt32(input)));
+                Console.WriteLine(ManhattanDistancePart1.CalculateDistanceOnAnAdditiveSpiral(Convert.ToInt32(input)));
+
 
 
 
