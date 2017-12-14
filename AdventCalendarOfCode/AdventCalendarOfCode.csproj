@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="ProblemsInputs\Passphrases1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="ProblemsInputs\SpreadSheetCheckSumDay2.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
