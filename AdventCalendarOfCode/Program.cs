@@ -19,8 +19,12 @@ namespace AdventCalendarOfCode
                 //Console.WriteLine(ManhattanDistancePart1.CalculateDistanceBasedOnNumber(Convert.ToInt32(input)));
                 //Console.WriteLine(ManhattanDistancePart1.CalculateDistanceOnAnAdditiveSpiral(Convert.ToInt32(input)));
                 //Console.WriteLine(Passphrases.GetTotalValidPassphrases());
-                Console.WriteLine(Passphrases.GetTotalValidPassphrasesWithAnagrams());
-                
+                //Console.WriteLine(Passphrases.GetTotalValidPassphrasesWithAnagrams());
+                //Console.WriteLine(MazeOfTrampolines.GetNumberOfStepsToExitMaze());
+                Console.WriteLine(MazeOfTrampolines.GetNumberOfStepsToExitMazeDecreasingOn3orMore());
+
+
+
                 input = Console.ReadLine();
             }
 
